@@ -1,0 +1,22 @@
+[GPIO]
+#10 = OUT 0
+#9 = OUT 0
+#11 = OUT 0
+#25 = OUT 0
+#7 = OUT 0
+#24 = OUT 0
+#8 = OUT 0
+18 = OUT 0
+
+[SCRIPTS]
+myscript = /home/pi/RemoteOnOff/webiopi_script.py
+
+[HTTP]
+enabled = true
+port = 8000
+
+passwd-file = /etc/webiopi/passwd
+
+prompt = "WebIOPi"
+
+doc-root = /home/pi/RemoteOnOff
